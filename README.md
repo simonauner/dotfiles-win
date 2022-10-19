@@ -23,3 +23,13 @@ Everything here is assumed to be run in Powershell (Core) in Windows Terminal un
    ```
 1. Read and run `setup-new-machine.ps1`
 1. Run `sudo symlink-setup.ps1`
+
+## What you get
+
+- `scoop`
+- `chocolatey`
+- `nvm`
+- oh-my-posh themed terminal with `ys` theme
+- `z` for quickly jumping between folders
+- history search based on previous commands
+- aliases

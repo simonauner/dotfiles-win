@@ -20,6 +20,10 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
+# -------
+# Aliases
+# -------
+
 # git aliases like oh-my-zsh
 Import-Module git-aliases -DisableNameChecking
 
