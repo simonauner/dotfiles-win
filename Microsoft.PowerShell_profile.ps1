@@ -10,6 +10,9 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
+# Print out suggestion on
+Set-PSReadLineOption -PredictionSource History
+
 # Enable z
 Import-Module z
 
@@ -32,7 +35,12 @@ function .. { set-location ".." }
 function ... {
    set-location ".."
    set-location ".."
-  }
+}
+
+# nvm use like on POSIX systems
+function nvm_use {
+  sudo nvm use $(Get-Content .nvmrc)
+}
 
 # handy aliases
 Set-Alias -Name l -Value ls
