@@ -35,3 +35,11 @@ Everything here is assumed to be run in Powershell (Core) in Windows Terminal un
 - `z` for quickly jumping between folders
 - history search based on previous commands
 - aliases
+
+## Keymap
+
+I've just used Mac for too long, I have to reverse map Ctrl/Alt keys so that Alt (key closest to Space) behaves like Ctrl/CMD.
+
+So for me `Alt+1` switches to first tab in VSCode/Chrome/Terminal, `Alt+S` saves a document etc, but `Alt+Tab` still works to tab between windows.
+
+![keymap](assets/keymap.png)

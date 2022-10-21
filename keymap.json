@@ -1,0 +1,32 @@
+{
+  "remapKeys": { "inProcess": [] },
+  "remapShortcuts": {
+    "global": [
+      { "originalKeys": "164;9", "newRemapKeys": "17;9" },
+      { "originalKeys": "162;9", "newRemapKeys": "164;9" },
+      { "originalKeys": "17;81", "newRemapKeys": "18;115" }
+    ],
+    "appSpecific": [
+      {
+        "originalKeys": "17;37",
+        "newRemapKeys": "18;37",
+        "targetApp": "chrome"
+      },
+      {
+        "originalKeys": "17;39",
+        "newRemapKeys": "18;39",
+        "targetApp": "chrome"
+      },
+      {
+        "originalKeys": "17;37",
+        "newRemapKeys": "18;37",
+        "targetApp": "firefox"
+      },
+      {
+        "originalKeys": "17;39",
+        "newRemapKeys": "18;39",
+        "targetApp": "firefox"
+      }
+    ]
+  }
+}
