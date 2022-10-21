@@ -2,11 +2,20 @@
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod get.scoop.sh | Invoke-Expression
 
-# Install nvm
-scoop install nvm
+scoop bucket add extras
 
-# install scoop packages
+# PowerToys
+scoop install powertoys
+scoop install vscode
+scoop install firefox
+scoop install spotify
+scoop install windows-terminal
+
+# install command-line tools
 scoop install sudo
+scoop install bat
+scoop install grep
+scoop install nvm
 
 # oh-my-posh
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
