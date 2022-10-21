@@ -11,6 +11,8 @@ Everything here is assumed to be run in Powershell (Core) in Windows Terminal un
 - Windows terminal
 - Rider
 - Spotify
+- Docker
+- PowerToys
 
 ## Let's go!
 
