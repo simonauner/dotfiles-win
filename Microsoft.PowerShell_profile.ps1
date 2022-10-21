@@ -12,6 +12,7 @@ if (Test-Path($ChocolateyProfile)) {
 
 # Print out suggestion on
 Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
 
 # Enable z
 Import-Module z
