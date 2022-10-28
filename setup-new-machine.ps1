@@ -4,7 +4,7 @@ Invoke-RestMethod get.scoop.sh | Invoke-Expression
 
 scoop bucket add extras
 
-# PowerToys
+# Window applications
 scoop install powertoys
 scoop install vscode
 scoop install firefox
@@ -16,6 +16,7 @@ scoop install sudo
 scoop install bat
 scoop install grep
 scoop install nvm
+scoop install nano
 
 # oh-my-posh
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
